@@ -3,3 +3,20 @@
     color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*
+    1) Color
+    2) Background Color
+    3) Font Size
+    4) Font Family 
+*/
+
+#login_form {
+    background-color: #87CEEB;
+    padding: 20px;
+    border-radius: 12px;
+    border: 3px solid blue;
+    margin: 15px;
+    height: 250px;
+    width: 500px;
+}

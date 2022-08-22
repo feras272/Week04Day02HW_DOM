@@ -9,26 +9,29 @@
 
     <p id="test"> Live Coding 20-8</p>
 
-    <form action="POST">
+    <div id="login_form">
+        <form action="POST">
 
-        <p id="status"></p>
-        <br>
-
-        <div id="email_div" class="login_div">
-            <label for="email">Email</label>
+            <p id="status"></p>
             <br>
-            <input type="text">
-        </div>
-
-        <br>
-
-        <div id="password_div" class="login_div">
-            <label for="password">Password</label>
+    
+            <div id="email_div" class="login_div">
+                <label id="email" for="email">Email</label>
+                <br>
+                <input type="text">
+            </div>
+    
             <br>
-            <input type="password">
-        </div>
+    
+            <div id="password_div" class="login_div">
+                <label id="password" for="password">Password</label>
+                <br>
+                <input type="password">
+            </div>
+    
+        </form>
+    </div>
 
-    </form>
 
     <script src="main.js"></script>
 <body>
