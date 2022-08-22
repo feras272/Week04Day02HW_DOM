@@ -20,3 +20,17 @@
     height: 250px;
     width: 500px;
 }
+
+#email_div {
+    background-color: #F5F5F5;
+    padding: 10px 20px 20px 10px;
+    border-radius: 12px;
+    border: 2px solid #F08080;
+}
+
+#password_div {
+    background-color: #F5F5F5;
+    padding: 10px 20px 20px 10px;
+    border-radius: 12px;
+    border: 2px solid #F08080;
+}
