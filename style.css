@@ -34,3 +34,21 @@
     border-radius: 12px;
     border: 2px solid #F08080;
 }
+
+#email {
+    color: #483D8B;
+    font-size: large;
+    font-family:courier;
+    letter-spacing: 1px;
+}
+
+#password {
+    color: #483D8B;
+    font-size: large;
+    font-family:courier;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: #F5F5F5;
+}
