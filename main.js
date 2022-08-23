@@ -5,3 +5,5 @@ let paragraph = document.querySelector('#status');
 let btn_login = document.querySelector('#login');
 let email_input = document.querySelector('#email_input');
 let password_input = document.querySelector('#password_input')
+
+const users = [ {user:'Feras', password:'1234'}, {user:'Alnowiser', password: '5678'}]
