@@ -17,11 +17,15 @@ function verify() {
     for(let i = 0; i < users.length; i++) {
         if(currentEmail == users[i].user && currentPassword == users[i].password) {
             console.log('Login Success');
+            paragraph.innerHTML = 'Login Success'
+            paragraph.style.backgroundColor = 'lightgreen'
             return;
-        } else {
-            console.log('Login Faild');
         }
     }
+    console.log('Login Faild');
+    paragraph.innerHTML = 'Login Faild'
+    paragraph.style.backgroundColor = 'red'
+    return;
 }
 
 btn_login.addEventListener('click', verify);

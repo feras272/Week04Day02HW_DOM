@@ -52,3 +52,16 @@
 body{
     background-color: #F5F5F5;
 }
+
+#status {
+    padding: 15px;
+    border-radius: 12px;
+}
+
+#login {
+    margin-top: 20px;
+    padding: 6px;
+    width: 100px;
+    border-radius: 12px;
+    border: #483D8B solid 2px;
+}
